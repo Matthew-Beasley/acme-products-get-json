@@ -16,4 +16,10 @@ app.get('/products', (req, res) => {
     .catch(err => res.send(err))
 });
 
+app.get('/companies', (req, res) => { 
+  db.readJSON('./companies.json')
+    .then(response => res.send(response))
+    .catch(err => res.send(err))
+});
+
 app.listen(PORT, () => console.log('Listening on ', PORT));
