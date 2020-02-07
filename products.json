@@ -1,21 +1,4 @@
 
-
-    Lesson Comments (0) 
-
-Acme Products Express GET JSON > Project
-Project
-Project Notes
-Phase One - Setup -
-
-    name repo acme-products-get-json
-    files db.js, server.js, products.json, index.html
-    you can copy the JSON string below for products.json
-    make sure to install express and create an express app with a route for /api/products
-    /api/products route should use the readFile code below to return products
-    make sure test it in browser
-
-products.json
-
 [
   {
     "id": "799d4209-cfd5-45c3-92a7-6b5318366e80",
